@@ -1,8 +1,29 @@
 .hero-banner {
-  background: url('/assets/images/banner.png') no-repeat center center;
-  background-size: contain;
-  min-height: 80vh;
+  background: url('/assets/images/banner.png') no-repeat left 10% center;
+  background-size: cover;
+  min-height: 25vh;
   position: relative;
+}
+
+@media (min-width: 768px) { 
+  .hero-banner {
+    min-height: 55vh;
+    background-size:contain;
+    background-position: center center;
+  }
+}
+
+#product-section {
+  background: url('/assets/images/transparent-background.svg') no-repeat;
+  background-position: top;
+
+}
+
+#project-section {
+  background: url('/assets/images/transparent-background.svg') no-repeat;
+  background-position: bottom;
+
+  
 }
 
 #mainNavbar{
@@ -13,7 +34,7 @@
 }
 
 .banner-content {
-  background-color: rgba(0, 0, 0, 0.55);
+  background: #0000005C;
   color: white;
 }
 
@@ -39,3 +60,23 @@
 .along-row {
   height:30%
 }
+
+@media (max-width: 768px) { 
+  .text-overlay {
+    height: 55px;
+  }
+  .along-row {
+    height: 55px;
+  }
+  .product-image {
+   margin-top: 1rem !important;
+  }
+
+  .grouped-product {
+    margin-top: 3rem !important;
+  }
+  .last-product {
+    margin-bottom: 2rem;
+  }
+}
+
