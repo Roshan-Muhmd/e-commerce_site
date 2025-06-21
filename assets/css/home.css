@@ -15,18 +15,27 @@
 .banner-content {
   background-color: rgba(0, 0, 0, 0.55);
   color: white;
-  border-radius: 6px;
 }
 
 /* Image overlay text */
 .text-overlay {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -3%;
+  left: 10%;
+  right: 10%;
+  height: 15%;
+  background: #111010;
+  border: 1px solid #FFFFFF;
+  border-color: white;
   color: white;
   text-align: center;
   padding: 10px;
   font-weight: 500;
+}
+
+.along-row {
+  height:30%
 }
