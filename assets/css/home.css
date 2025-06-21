@@ -1,5 +1,5 @@
 .hero-banner {
-  background: url('/assets/images/banner.png') no-repeat left 10% center;
+  background: url('/assets/images/banner-image.svg') no-repeat left 10% center;
   background-size: cover;
   min-height: 25vh;
   position: relative;
