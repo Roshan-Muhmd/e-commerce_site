@@ -1,5 +1,5 @@
 .hero-banner {
-  background: url('/assets/images/banner-image.svg') no-repeat left 10% center;
+  background: url('../images/banback.svg') no-repeat left 10% center;
   background-size: cover;
   min-height: 25vh;
   position: relative;
@@ -14,7 +14,7 @@
 }
 
 #product-section {
-  background: url('/assets/images/transparent-background.svg') no-repeat;
+  background: url('../images/transparent-background.svg') no-repeat;
   background-position: top;
 
 }
