@@ -1,0 +1,32 @@
+.hero-banner {
+  background: url('/assets/images/banner.png') no-repeat center center;
+  background-size: contain;
+  min-height: 80vh;
+  position: relative;
+}
+
+#mainNavbar{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  border-radius: 6px;
+}
+
+/* Image overlay text */
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+}
